@@ -1,0 +1,12 @@
+[submodule "themes/docsy"]
+	path = themes/docsy
+	url = https://github.com/google/docsy.git
+[submodule "hello"]
+	path = hello
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/hello"]
+	path = themes/hello
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/hugo-theme-learn"]
+	path = themes/hugo-theme-learn
+	url = https://github.com/matcornic/hugo-theme-learn.git

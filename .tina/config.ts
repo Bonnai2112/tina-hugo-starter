@@ -23,9 +23,39 @@ export default defineStaticConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "basics",
+        label: "Basics",
+        path: "content/basics",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            label: "Date",
+            name: "date",
+          },
+          {
+            type: "boolean",
+            name: "draft",
+            label: "Draft",
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
+      {
+        name: "cont",
+        label: "Cont",
+        path: "content/cont",
         fields: [
           {
             type: "string",
